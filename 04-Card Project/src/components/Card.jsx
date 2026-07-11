@@ -2,15 +2,16 @@ import React from 'react'
 
 const cards = (props) => {
   return (
-    <div>
+    <div className='card'>
         <img src={props.img} alt="" />
         <button>save</button>
       <h5>{props.cname}</h5>
-      <h3>{props.role}</h3>
+      <h4>{props.role}</h4>
       <div className="about">
-            {props.about1},{props.about2}
+            <p>{props.about1}</p>
+            <p>{props.about2}</p>
       </div>
-        
+        <h5>{props.salary}</h5>
       <button>Apply now</button>
     </div>
   )
