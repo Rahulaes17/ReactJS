@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body {
+  background:white;
+  color: white;
+}
+
+.nav2{
+  display: flex;
+  gap: 20px;
+}
+
+.light{
+  background: lightseagreen;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.dark{
+  background-color: #0f172a;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
